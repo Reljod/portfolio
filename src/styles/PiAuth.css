@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.AuthTitle {
+	font-size: 25px;
+	margin: 20px 0px 10px 0px;
+}
+
+.AuthButton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: fit-content;
+	height: fit-content;
+	padding: 20px 20px;
+	margin: 5px 5px;
+	border-radius: 15px;
+}
+
+.AuthButton p {
+	font-size: 20px;
+	color: rgb(252, 221, 46);
+	margin: 0px;
+}
+
+.AuthButtonActive {
+	background-color: rgb(63, 40, 90);
+}
+
+.AuthButtonActive:hover {
+	cursor: pointer;
+	background-color: rgb(89, 56, 128);
+}
+
+.AuthButtonDisbled {
+	background-color: rgb(75, 75, 75);
+}
